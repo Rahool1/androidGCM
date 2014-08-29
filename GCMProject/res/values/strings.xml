@@ -6,5 +6,9 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="title_section4">Section 4</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_with_gcm">Register with GCM</string>
+    <string name="press_the_button_to_get_your_gcm_register_id">Press the Button to get Your GCM Register ID</string>
 
 </resources>

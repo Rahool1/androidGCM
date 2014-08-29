@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GCMRegisterFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button_register_with_gcm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+        android:text="@string/register_with_gcm" />
+
+    <TextView
+        android:id="@+id/textview_press_the_button_to_get_your_gcm_register_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/button_register_with_gcm"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/press_the_button_to_get_your_gcm_register_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
